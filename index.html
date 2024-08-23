@@ -7,6 +7,8 @@
     </body>
 </html>
 
+  <img class="heroimage" id="scrollimg" src="media.png"></img>
+
 <div class="grid-container">
   <div class="grid-item">
 
@@ -25,12 +27,12 @@
     <h1 class="title">An Alien Movie.</h1>><br>
     <a><p1 class="watchnow"> <span class="icon1"> |> </span> watch now</p1></a>    5</div>
   <div class="grid-item">6
-    
   </div>  
   <div class="grid-item">7
     
   </div>
-  <div class="grid-item">    
+  <div class="grid-item">      
+
   8</div>
   <div class="grid-item">1</div>
   <div class="grid-item">
@@ -48,14 +50,68 @@
   <div class="grid-item">6</div>  
   <div class="grid-item">7</div>
   <div class="grid-item">8</div>
-  <div class="grid-item">    <p1>Our project is a 1 - 2 minute mixed media film parodying science fiction alien movies of the 60s - 80s. This film utilises animation and 3D computer rendered environments mixed together to create a unique and stylized visual language. Our project uses visual, audio, and musical tropes of the era it's parodying to further the comedic aspect, increasing its appeal to a wide audience.
+  <div class="grid-item">    <p1>Our project is a 1 - 2 minute mixed media film parodying science fiction alien movies of the 60s - 80s. This film utilises animation and 3D computer rendered environments mixed together to create a unique and stylized visual language. 
   </p1><br>
     1</div>
-  <div class="grid-item"><p1>Narratively, The basic premise/story for this project is two extraterrestrial creatures managed to escape a high-security containment facility, and seek refuge within a gas station convenience store situated in the middle of a Southern desert. It is implied that the containment facility they escaped from is similar to Area 51.  
+  <div class="grid-item"><p1>Our project uses visual, audio, and musical tropes of the era it's parodying to further the comedic aspect, increasing its appeal to a wide audience.
   </p1>
     2</div>
-  <div class="grid-item">3</div>  
+  <div class="grid-item">
+
+    3</div>  
   <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item"></div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item"></div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item"></div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item"></div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item"><p1>other links will go down here.</p1><br><br>
+  </div>
+  
 </div>
 
+  <script>
 
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+    
+        if (window.scrollY > 100) {
+          document.getElementById('scrollimg').style.filter="blur(30px) contrast(3)";
+          document.getElementById('scrollimg').style.transform="scale(1.1)";
+          document.getElementById('scrollimg').style.opacity="50%";
+
+
+            backhome()
+    
+    
+        } else {
+    
+          document.getElementById('scrollimg').style.filter="blur(0px)";
+          document.getElementById('scrollimg').style.transform="scale(1)";
+          document.getElementById('scrollimg').style.opacity="100%";
+
+    
+        }
+      }
+    
+  </script>
